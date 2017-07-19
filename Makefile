@@ -5,6 +5,9 @@ all: jshint test
 jshint:
 	jshint lib examples index.js
 
+test:
+	npm test
+
 tests: test
 
 tap:
@@ -16,6 +19,6 @@ unit:
 skel:
 	mkdir examples lib test
 	touch index.js
-	npm install mocha chai --save-dev
+	npm install --save-dev
 
 .PHONY: test tap unit jshint skel
