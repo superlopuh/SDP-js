@@ -1,6 +1,6 @@
 {
   "name": "simple-datagram-protocol",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "JS implementation of the Simple Datagram Protocol.",
   "main": "index.js",
   "scripts": {
