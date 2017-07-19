@@ -21,6 +21,7 @@
   "homepage": "https://github.com/snipsco/SDP-js#readme",
   "devDependencies": {
     "chai": "^4.1.0",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "discontinuous-range": "^1.0.0"
   }
 }
