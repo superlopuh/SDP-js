@@ -4,7 +4,7 @@
   "description": "JS implementation of the Simple Datagram Protocol.",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "NODE_ENV=test mocha --recursive --timeout 3000"
   },
   "repository": {
     "type": "git",
